@@ -3,7 +3,7 @@ const buttonDiv = document.getElementById("myBtn");
 const listDiv = document.getElementById("myList");
 
 //for stored a task
-let myTodoList = JSON.parse(localStorage.getItem("myTodoList")) || [];
+let todoList = JSON.parse(localStorage.getItem("myTodoList")) || [];
 // local storage me phle data save karenge
 const saveToLocalStorage=() => {
     //listDiv.innerhtmlka meaning hai humare pure html list(list aur btn)
