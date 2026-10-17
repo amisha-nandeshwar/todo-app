@@ -96,4 +96,4 @@ if(clearAllBtn) {
         }
     });
 }
-
+renderTask();
